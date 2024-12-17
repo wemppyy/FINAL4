@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{e1a466f7-a10b-4179-9dad-ddedeedc43b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\game">
+      <UniqueIdentifier>{65289630-0508-4be5-b15c-47191a04152b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\words">
+      <UniqueIdentifier>{797c240f-0572-4809-9142-9161e0a77bb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>main\game</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>main\game</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>main\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="medium.txt">
+      <Filter>main\words</Filter>
+    </Text>
+    <Text Include="easy.txt">
+      <Filter>main\words</Filter>
+    </Text>
+    <Text Include="hard.txt">
+      <Filter>main\words</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>main\game</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>main\game</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>main\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
